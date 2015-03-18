@@ -1,76 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <title>About</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="generator" content="JBake">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>About</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="generator" content="清晨迷雾">
 
-    <!-- Le styles -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/asciidoctor.css" rel="stylesheet">
-    <link href="css/base.css" rel="stylesheet">
-    <link href="css/prettify.css" rel="stylesheet">
+	<!-- Fav and touch icons -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-    <![endif]-->
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/pixyll.css" type="text/css">
 
-    <!-- Fav and touch icons -->
-    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
-    <link rel="shortcut icon" href="favicon.ico">
-  </head>
-  <body onload="prettyPrint()">
-    <div id="wrap">
+	<!-- Fonts -->
+	<link href='//fonts.useso.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+	<link href='//fonts.useso.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/highlight/default.css">
+	<script src="js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+</head><body class="">
+  <div class="site-wrap">
+<header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="" class="site-title">清晨迷雾de小站</a>
 
-	<!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="">宜兴永林山庄</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav right" >
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <!--<li><a href="feed.xml">Subscribe</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>-->
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+      <nav class="site-nav right">
+<a href="index.html">首页</a>
+<a href="about.html">关于</a>
+<a href="feed.xml">订阅</a>
+      </nav>
+      <div class="clearfix"></div>
     </div>
-    <div class="container">	
-	<div class="page-header">
-		<h1>About</h1>
-	</div>
-
-	<p><em>24 九月 2013</em></p>
-
-	<p>
+  </div>
+</header>
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div class="post">
+		  <header class="post-header">
+			<h1 class="h2">About</h1>
+		  </header>
+		  <article class="post-content">
+		  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel diam purus. Curabitur ut nisi lacus. 
 Nam id nisl quam. Donec a lorem sit amet libero pretium vulputate vel ut purus. Suspendisse leo arcu, 
 mattis et imperdiet luctus, pulvinar vitae mi. Quisque fermentum sollicitudin feugiat. Mauris nec leo 
@@ -79,30 +55,39 @@ ligula vehicula et iaculis sem placerat. Fusce dictum, metus at volutpat lacinia
 id auctor arcu enim eu augue. Donec ultrices turpis in mi imperdiet ac venenatis sapien sodales. In 
 consequat imperdiet nunc quis bibendum. Nulla semper, erat quis ornare tristique, lectus massa posuere 
 libero, ut vehicula lectus nunc ut lorem. Aliquam erat volutpat.
-</p>
 
-	<hr />
-
+		  </article>
 		</div>
-		<div id="push"></div>
-    </div>
-    
-    <div id="footer">
-      <div class="container">
-        <!--
-        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.3.1</a></p>
-        -->
-        <p class="muted credit">&copy; 2015 | 永林山庄</p>
- 
       </div>
     </div>
+  </div>
+
+<footer class="footer">
+  <div class="p2 wrap">
+	<div class="measure mt1 center">
+	  <small>
+		版权所有 © 2015 <a href="http://www.vouov.com">vouov</a><br/>
+		Copyright © 2015 <a href="http://www.vouov.com">vouov</a> All rights reserved. <br/>
+		<a href="/archive.html">archive</a>
+	  </small>
+<div class="social-icons">
+  <div class="left">
     
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/prettify.js"></script>
-    
-  </body>
+      <a class="fa fa-github" href="https://github.com/vouov"></a>
+
+	  <a class="fa fa-rss" href="feed.xml"></a>
+
+      <a class="fa fa-twitter" href="http://weibo.com/445600369"></a>
+
+      <a class="fa fa-envelope" href="mailto:yuminglong@gmail.com"></a>
+  </div>
+  <div class="right">
+	  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254468510'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1254468510%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+  </div>
+</div>
+<div class="clearfix"></div>
+	</div>
+  </div>
+</footer>
+</body>
 </html>

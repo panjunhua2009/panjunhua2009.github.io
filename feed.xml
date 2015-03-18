@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JBake</title>
-    <link>http://jbake.org</link>
-    <atom:link href="http://jbake.org/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.vouov.com</link>
+    <atom:link href="http://www.vouov.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>JBake Bootstrap Template</description>
     <language>en-gb</language>
-    <pubDate>星期四, 12 三月 2015 22:27:18 +0800</pubDate>
-    <lastBuildDate>星期四, 12 三月 2015 22:27:18 +0800</lastBuildDate>
+    <pubDate>星期三, 18 三月 2015 17:47:55 +0800</pubDate>
+    <lastBuildDate>星期三, 18 三月 2015 17:47:55 +0800</lastBuildDate>
 
     <item>
       <title>飞鸿数码手机报价</title>
-      <link>http://jbake.org/blog/2015/2015-3-13.html</link>
+      <link>http://www.vouov.com/blog/2015/2015-3-13.html</link>
       <pubDate>星期四, 12 三月 2015 00:00:00 +0800</pubDate>
       <guid isPermaLink="false">blog/2015/2015-3-13.html</guid>
       	<description>
@@ -41,7 +41,7 @@
     </item>
     <item>
       <title>永林山庄介绍</title>
-      <link>http://jbake.org/blog/2015/2015-3-12.html</link>
+      <link>http://www.vouov.com/blog/2015/2015-3-12.html</link>
       <pubDate>星期二, 10 三月 2015 00:00:00 +0800</pubDate>
       <guid isPermaLink="false">blog/2015/2015-3-12.html</guid>
       	<description>
